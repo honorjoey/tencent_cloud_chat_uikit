@@ -39,6 +39,7 @@ export 'package:tencent_cloud_chat_uikit/ui/views/TIMUIKitConversation/tim_ui_ki
 
 // Enum
 export 'package:tencent_cloud_chat_uikit/ui/theme/tim_uikit_message_theme.dart';
+export 'package:tencent_cloud_chat_sdk/enum/log_level_enum.dart';
 
 // Controller
 export 'package:tencent_cloud_chat_uikit/ui/controller/tim_uikit_profile_controller.dart';
@@ -50,6 +51,8 @@ export 'package:permission_handler/permission_handler.dart';
 // Utils
 export 'package:tencent_cloud_chat_uikit/ui/utils/common_utils.dart';
 export 'package:tencent_cloud_uikit_core/tencent_cloud_uikit_core.dart';
+
+export 'package:tencent_cloud_chat_sdk/enum/V2TimSDKListener.dart';
 
 class TIMUIKitCore {
   static CoreServicesImpl getInstance() {
